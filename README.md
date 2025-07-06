@@ -10,6 +10,13 @@ Follow the on-screen instructions to choose and play different Wordle games: Dai
 ### Initial Planning and API Understanding
 Project goals: Build an AI bot capable of automatically solving wordle game by using API feedback. 
 
+### Architecture
+![image](https://github.com/user-attachments/assets/31a8a7f8-b0fb-4bac-ae37-ac28ddb6d31e)
+
+- **API Client**:Handles communication with the Wordle API
+- **AI Bot**: Controls main logic and manages game flow
+- **Refining Solver**: Based feedback from API to refine words
+
 #### API Specification:
 ##### API endpoints:
 - `/daily`: Interact with a daily wordle.
