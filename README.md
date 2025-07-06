@@ -17,18 +17,18 @@ Project goals: Build an AI bot capable of automatically solving wordle game by u
 - **AI Bot**: Controls main logic and manages game flow
 - **Refining Solver**: Based feedback from API to refine words
 
-#### API Specification:
-##### API endpoints:
+### API Specification:
+#### API endpoints:
 - `/daily`: Interact with a daily wordle.
 - `/random`: Guess against a random word, with the addition of an optional "seed" parameter for randomness control.
 - `/word/{word}`: We can replace `{word}` with the word you want to guess against and supply your "guess" as a query parameter.
 
-##### Components:
+#### Components:
 - **GuessResult**: Each result will have a `slot`, `guess`, and `result`. The `result` will indicate if your guess was `absent`, `present`, or `correct`.
 - **HTTPValidationError**: Describes the format of an error in case your request is not valid.
 - **ValidationError**: Details on validation errors including location, message, and error type.
 
-#### Design AI Bot
+### Design AI Bot
 1. Start with an initial word (the length of word is equal to the wordle `size`)
 2. Iteratively refining each letter based on feedback: 
     - For `absent`: Remove these letters.
