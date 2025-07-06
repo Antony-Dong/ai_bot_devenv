@@ -42,7 +42,7 @@ Set up the Python environment in VS code. Based on API doc, I determined the use
 
 ### API Integration
 Developed functions to manage GET requests to each endpoint (`/daily`, `/random`, and `/word/{word}`), passing the parameters including `guess`, `size`, `word`, handle responses, and extract meaningful results as `response.json`.
-Conducted test cases via `test_api_endpoints()` with initial guess "apple" verifying HTTP responses and diagnosing issues via response.status_code. Outputs as below:
+Conducted test cases via `test_api_endpoints()` with initial guess "apple" verifying HTTP responses and diagnosing issues via response.status_code. For example, I set "apple" as target word in Guess Word Game, and the outputs as below:
 `Status Code: 200 Response`
 
 
