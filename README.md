@@ -15,7 +15,7 @@ Project goals: Build an AI bot capable of automatically solving wordle game by u
 
 - **API Client**: Handles communication with the Wordle API
 - **AI Bot**: Controls main logic and manages game flow
-- **Refining Solver**: Based feedback from API to refine words
+- **Refining Solver**: Refine guess words based on feedback from API 
 
 ### API Specification:
 #### API endpoints:
